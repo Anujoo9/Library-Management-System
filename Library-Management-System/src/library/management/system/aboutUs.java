@@ -14,7 +14,7 @@ public class aboutUs extends JFrame{
     
         public aboutUs() {
             
-            super("About Us - Code for Interview");
+            super("About Us ");
             setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\ram\\Desktop\\rohit.jpg"));
             setBackground(new Color(173, 216, 230));
             setBounds(500, 250, 700, 500);
@@ -51,33 +51,16 @@ public class aboutUs extends JFrame{
             contentPane.add(l5);
 
 
-            JLabel l6 = new JLabel("Developed By : Code for Interview");
+            JLabel l6 = new JLabel("Developed By : Anuj Yadav");
             l6.setFont(new Font("Trebuchet MS", Font.BOLD, 30));
             l6.setBounds(70, 198, 600, 35);
             contentPane.add(l6);
 
-            JLabel l7 = new JLabel("Contact Us : codeforinterview01@gmail.com");
+            JLabel l7 = new JLabel("Contact Us : anujyadav1001@gmail.com");
             l7.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
             l7.setBounds(70, 260, 600, 34);
             contentPane.add(l7);
 
-            JLabel l8 = new JLabel("Subscribe us on Youtube : Code for Interview");
-            l8.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
-            l8.setBounds(70, 290, 600, 34);
-            contentPane.add(l8);
-
-            JLabel l9 = new JLabel("Follow us on Instagram : codeforinterview");
-            l9.setFont(new Font("Trebuchet MS", Font.BOLD , 20));
-            l9.setBounds(70, 320, 600, 34);
-            contentPane.add(l9);
-
-
-            JLabel l10 = new JLabel("**If you want us to make Java Project for you, drop a mail**");
-            l10.setForeground(new Color(47, 79, 79));
-            l10.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 18));
-            l10.setBounds(70, 400, 600, 34);
-            contentPane.add(l10);
-                
                 
             contentPane.setBackground(Color.WHITE);
 	}
